@@ -8,4 +8,5 @@
 name: Labeler
 on: [pull_request]
 
-translate: /Projects/OfficeToolPlus/OfficeToolPlus/Language/*
+jobs:
+  - translate: /Projects/OfficeToolPlus/OfficeToolPlus/Language/*:
